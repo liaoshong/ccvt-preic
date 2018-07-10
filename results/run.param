@@ -1,0 +1,34 @@
+% Specify your parameters here.
+
+NUM_PART_EACH_DIM		8
+NUM_CAPACITY_EACH_DIM		10
+BOX_SIZE			1.0
+RANDOM_SEED			42
+NUM_THREADS			2
+OUTPUT_PATH			./results/
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%		List of parameters
+%
+% NUM_PART_EACH_DIM	The number of particles on each
+%			dimension. The total number of
+%			particles is thus equal to the
+%			cube of NUM_PART_EACH_DIM.
+%
+% NUM_CAPACITY_EACH_DIM	The number of capacity of each
+%			particle on each dimension. Thus,
+%			the capacity of each particle is
+%			the cube of NUM_CAPACITY_EACH_DIM.
+%
+% BOX_SIZE		The box size of the generated
+%			particles.
+%
+% RANDOM_SEED		The integer seed for generating
+%			pseudo random numbers.
+%
+% NUM_THREADS		The number of threads for OpenMP
+%			parallelization.
+%
+% OUTPUT_PATH		The path to save outputs.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
